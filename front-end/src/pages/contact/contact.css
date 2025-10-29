@@ -1,0 +1,54 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 3rem;
+  padding: 3rem 0;
+  height: 100%;
+}
+
+.contact__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.contact__right h2 {
+  background: linear-gradient(90deg, #ededed 40%, #cfe033 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: shine 3s linear infinite;
+}
+
+.contact__left h2 {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.1;
+
+  background: linear-gradient(90deg, #ededed 40%, #cfe033 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: shine 3s linear infinite;
+
+  padding-bottom: 12rem;
+}
+
+.contact__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contact__info {
+  font-size: 1.1rem;
+}
+
+.contact__address {
+  padding-bottom: 2rem;
+  font-size: 1.1rem;
+}

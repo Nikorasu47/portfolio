@@ -1,0 +1,16 @@
+.modal__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.tag {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 0.3rem 1rem;
+  background: none;
+  cursor: pointer;
+}
+.tag.selected {
+  border: 2px solid #333;
+  font-weight: bold;
+}

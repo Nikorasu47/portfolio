@@ -1,0 +1,34 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+    gap: 3rem;
+}
+
+.home__text {
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.home__title {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.1;
+  background: linear-gradient(90deg, #4f8cff 20%, #a259ff 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 2rem;
+}
+
+.home__desc {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.home__img {
+width: 600px;
+}

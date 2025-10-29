@@ -1,0 +1,27 @@
+.portfolio__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 600px;
+  overflow-y: auto;
+  scrollbar-width: none; 
+}
+
+.portfolio__list::-webkit-scrollbar {
+  display: none;
+}
+
+
+.portfolio__list > div {
+  flex: 0 0 calc(33.333% - 1.34rem);
+  max-width: calc(33.333% - 1.34rem);
+  height: 45%; 
+  box-sizing: border-box;
+
+ 
+  
+}

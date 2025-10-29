@@ -1,0 +1,41 @@
+.technologies {
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+    height: 100%;
+}
+
+.technologies__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.technologies__title-gradient {
+  background: linear-gradient(90deg, #ff8a4f 0%, #ff59f7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.technologies__desc {
+  font-size: 1.2rem;
+  color: #f4f4f4;
+  margin-bottom: 2.5rem;
+  margin-top: 10rem;
+}
+
+.technologies__icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 5rem;
+}
+
+.technologies__icons img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 8px rgba(76,99,255,0.10));
+}

@@ -1,0 +1,52 @@
+.header {
+  width: 100%;
+
+  padding: 0.5rem 0;
+}
+
+.header__container {
+  display: flex;
+ 
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  border-radius: 1em;
+  border: #ffffffc4 1px solid;
+}
+
+.header__brand {
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.header__nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.header__link {
+  color: #f4f4f4;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.4s;
+}
+
+.header__link:hover {
+  color: #5890f8;
+}
+
+.header__lang {
+  background: linear-gradient(90deg, #4f8cff 0%, #a259ff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
