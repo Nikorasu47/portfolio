@@ -29,7 +29,7 @@ export const services = [
       icon: <FontAwesomeIcon icon={faCode} />,
       title: "Responsive",
       description:
-        "S'assurer que votre site web est entièrement responsive, offrant une expérience utilisateur optimale sur tous les appareils, qu'il s'agisse de smartphones, de tablettes ou d'ordinateurs de bureau.",
+        "S'assurer que votre site web est entièrement responsive, offrant une expérience utilisateur optimale sur tous les appareils smartphones, tablettes ou ordinateurs de bureau.",
     },
   ];
   

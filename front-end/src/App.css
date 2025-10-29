@@ -18,3 +18,12 @@ a {
   background: none;
   font: inherit;
 }
+
+
+@media (max-width: 768px) {
+  
+  .main-content {
+  padding: 1rem 0;
+  height: auto;
+}
+}

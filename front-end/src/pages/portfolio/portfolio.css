@@ -25,3 +25,30 @@
  
   
 }
+
+@media (max-width: 820px) {
+  .portfolio__list > div {
+    flex: 0 0 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+    height: 200px; 
+  }
+}
+@media (max-width: 580px) {
+  .portfolio__list > div {
+    flex: 0 0 calc(100% - 1rem);
+    max-width: calc(100% - 1rem);
+    height: 180px; 
+  }
+}
+@media (max-width: 420px) {
+  .portfolio__list > div {
+    height: 150px;
+   
+  }
+  .portfolio__list {
+  margin: 0;
+   width: 90%;
+ 
+
+}
+}

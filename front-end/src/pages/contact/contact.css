@@ -56,3 +56,46 @@
   padding-bottom: 2rem;
   font-size: 1.1rem;
 }
+
+@media (max-width: 820px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    height: auto;
+  }
+
+  .contact__center {
+    width: 100%;
+    margin-top: 40px;
+    
+  }
+
+  .contact__center h2 {
+    font-size: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .contact__right,
+  .contact__left {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 420px) {
+  .contact__right,
+  .contact__left {
+    flex-direction: column;
+    align-items: center;
+    gap: rem;
+  }
+
+  .contact__center h2 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+  
+}

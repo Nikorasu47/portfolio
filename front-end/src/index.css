@@ -17,4 +17,12 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(135deg, #232946 0%, #1a2233 100%);
+}
+
+@media (max-width: 768px) {
+  body{
+    height: auto;
+  }
+  
 }
