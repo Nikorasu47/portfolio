@@ -7,15 +7,17 @@
   height: 100%;
 }
 
-.contact__left {
+.contact__center {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 45%;
+  margin-top: 150px;
 }
 
-.contact__right h2 {
-  background: linear-gradient(90deg, #ededed 40%, #cfe033 50%);
+.contact__right h2,
+.contact__left h2 {
+  background: linear-gradient(90deg, #ededed 40%, #cfe033 25%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -23,7 +25,7 @@
   animation: shine 3s linear infinite;
 }
 
-.contact__left h2 {
+.contact__center h2 {
   font-size: 5rem;
   font-weight: 700;
   line-height: 1.1;
@@ -38,10 +40,12 @@
   padding-bottom: 12rem;
 }
 
-.contact__right {
+.contact__right,
+.contact__left {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  width: 25%;
 }
 
 .contact__info {
