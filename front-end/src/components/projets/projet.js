@@ -6,7 +6,7 @@ export const projets = [
     categorie: "Open Classroom",
     tags: ["Html"],
     lien: "Pas de liens disponible",
-    photo: "/public/assets/projets/RidingCities.png",
+    photo: "assets/projets/RidingCities.png",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const projets = [
     categorie: "Open Classroom",
     tags: ["Html", "CSS3", "Git"],
     lien: "Pas de liens disponible",
-    photo: "/public/assets/projets/Booki.png",
+    photo: "assets/projets/Booki.png",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const projets = [
     categorie: "Open Classroom",
     tags: ["CSS3", "Sass", "Git"],
     lien: "https://github.com/Nikorasu47/oh-my-food",
-    photo: "/public/assets/projets/OhMyFood.png",
+    photo: "assets/projets/OhMyFood.png",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const projets = [
     categorie: "Open Classroom",
     tags: ["Html", "CSS3", "Js"],
     lien: "https://github.com/Nikorasu47/carroussel-sur-js",
-    photo: "/public/assets/projets/PrintIt.png",
+    photo: "assets/projets/PrintIt.png",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ export const projets = [
     categorie: "Open Classroom",
     tags: ["Html", "CSS3", "Js"],
     lien: "https://github.com/Nikorasu47/sophie",
-    photo: "/public/assets/projets/SophieBluel.png",
+    photo: "assets/projets/SophieBluel.png",
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ export const projets = [
     categorie: "Open Classroom",
     tags: ["React", "CSS3", "Git"],
     lien: "https://github.com/Nikorasu47/React-app/tree/master",
-    photo: "/public/assets/projets/Kasa.png",
+    photo: "assets/projets/Kasa.png",
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ export const projets = [
     categorie: "Open Classroom",
     tags: ["React", "CSS3", "Git"],
     lien: "https://github.com/Nikorasu47/NinaOptiSite",
-    photo: "/public/assets/projets/NinaCarducci.png",
+    photo: "assets/projets/NinaCarducci.png",
   },
   {
     id: 8,
@@ -69,7 +69,7 @@ export const projets = [
     categorie: "Open Classroom",
     tags: ["React", "CSS3", "Git"],
     lien: "https://github.com/Nikorasu47/724events",
-    photo: "/public/assets/projets/724Event.png",
+    photo: "assets/projets/724Event.png",
   },
   {
     id: 9,
@@ -79,7 +79,7 @@ export const projets = [
     categorie: "Open Classroom",
     tags: ["React", "Js", "Git"],
     lien: "https://github.com/Nikorasu47/ArgentBank-Frontend",
-    photo: "/public/assets/projets/ArgentBank.png",
+    photo: "assets/projets/ArgentBank.png",
   },
   {
     id: 10,
@@ -89,7 +89,7 @@ export const projets = [
     categorie: "Open Classroom",
     tags: ["Notion", "Kanban", "Figma"],
     lien: "Pas de liens disponible",
-    photo: "/public/assets/projets/Qwenta.png",
+    photo: "assets/projets/Qwenta.png",
   },
 
   // ... autres projets
