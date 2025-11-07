@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import cvPdf from "../../../public/cv/mon_cv.pdf";
 
 function Contact() {
   return (
@@ -21,11 +22,12 @@ function Contact() {
             <strong>Curriculum Vitae</strong>
           </h2>
           <a
-            href="#"
+            href={cvPdf}
             target="_blank"
             rel="noopener noreferrer"
+            download="Nicolas_Fort_CV.pdf"
           >
-            Pas encore disponible
+            Télécharger mon CV
           </a>
         </div>
       </div>
